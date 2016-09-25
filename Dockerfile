@@ -10,4 +10,4 @@ RUN bundle install --system
 
 EXPOSE 8080
 
-CMD ruby hi.rb
+CMD ["ruby", "hi.rb"]
