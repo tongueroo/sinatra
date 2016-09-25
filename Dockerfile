@@ -8,6 +8,6 @@ RUN bundle install --system
 ADD . /app
 RUN bundle install --system
 
-EXPOSE 4567
+EXPOSE 8080
 
 CMD ruby hi.rb
