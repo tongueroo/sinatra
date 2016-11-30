@@ -1,6 +1,6 @@
-# Test Project to Demo Some Tools
+# Test Project for Demo
 
-This project containers a small sinatra app that prints out some text.  It listens on the default 4567 port.
+This project contains a small sinatra app that prints out some text.  It listens on the default 4567 port.
 
 ## Testing Locally with Mac OSX
 
