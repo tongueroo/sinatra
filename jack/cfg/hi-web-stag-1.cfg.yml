@@ -8,10 +8,12 @@ OptionSettings:
   aws:autoscaling:launchconfiguration:
     EC2KeyName: default
     IamInstanceProfile: aws-elasticbeanstalk-ec2-role
-    InstanceType: t2.micro
+    InstanceType: t2.small
   aws:autoscaling:updatepolicy:rollingupdate:
     RollingUpdateEnabled: true
     RollingUpdateType: Health
+  aws:elasticbeanstalk:application:environment:
+    FOO: bar
   aws:elasticbeanstalk:command:
     BatchSize: '30'
     BatchSizeType: Percentage
