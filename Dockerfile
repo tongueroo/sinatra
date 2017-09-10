@@ -10,4 +10,4 @@ RUN bundle install --system
 
 EXPOSE 4567
 
-CMD ruby hi.rb
+CMD ["ruby", "hi.rb"]

@@ -1,0 +1,21 @@
+{
+  "family": "sinatra-hi",
+  "containerDefinitions": [
+    {
+      "name": "web",
+      "image": "tongueroo/sinatra:latest",
+      "cpu": 128,
+      "memoryReservation": 128,
+      "portMappings": [
+        {
+          "containerPort": 4567,
+          "protocol": "tcp"
+        }
+      ],
+      "command": [
+        "ruby", "hi.rb"
+      ],
+      "essential": true
+    }
+  ]
+}
