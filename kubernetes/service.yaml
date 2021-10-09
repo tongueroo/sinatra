@@ -10,7 +10,7 @@ spec:
   ports:
   - port: 80
     protocol: TCP
-    targetPort: 80
+    targetPort: 4567
   selector:
     app: demo
     role: web
