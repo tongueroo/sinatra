@@ -8,6 +8,6 @@ RUN bundle install --system
 ADD . /app
 RUN bundle install --system
 
-EXPOSE 8080
+EXPOSE 4567
 
 CMD ["ruby", "app.rb"]

@@ -8,7 +8,7 @@
       "memoryReservation": 128,
       "portMappings": [
         {
-          "containerPort": 8080,
+          "containerPort": 4567,
           "protocol": "tcp"
         }
       ],
