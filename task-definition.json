@@ -1,5 +1,5 @@
 {
-  "family": "sinatra-hi",
+  "family": "sinatra-app",
   "containerDefinitions": [
     {
       "name": "web",
@@ -13,7 +13,7 @@
         }
       ],
       "command": [
-        "ruby", "hi.rb"
+        "ruby", "app.rb"
       ],
       "essential": true
     }

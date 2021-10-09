@@ -1,4 +1,4 @@
-FROM ruby:2.5.3
+FROM ruby:3.0.2
 
 WORKDIR /app
 ADD Gemfile /app/Gemfile
@@ -10,4 +10,4 @@ RUN bundle install --system
 
 EXPOSE 4567
 
-CMD ["ruby", "hi.rb"]
+CMD ["ruby", "app.rb"]

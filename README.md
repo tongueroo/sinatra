@@ -7,7 +7,7 @@ This project contains a small sinatra app that prints out some text.  It listens
     $ git clone https://github.com/tongueroo/sinatra
     $ cd sinatra
     $ bundle
-    $ ruby hi.rb
+    $ ruby app.rb
 
 ## Testing Locally with Docker
 
