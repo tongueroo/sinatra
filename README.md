@@ -14,12 +14,12 @@ This project contains a small sinatra app that prints out some text.  It listens
 The app is also dockerized so you can test this via docker.
 
     $ docker build -t tongueroo/sinatra . # you can skip this step if you want to just pull the image from DockerHub.
-    $ docker run --rm -d -p 8080:8080 --name hi tongueroo/sinatra
+    $ docker run --rm -d -p 8080:8080 --name sinatra-app tongueroo/sinatra
     $ curl localhost:8080 ; echo
     42
-    $ docker stop hi ; docker rm hi
-    hi
-    hi
+    $ docker stop sinatra-app ; docker rm sinatra-app
+    sinatra-app
+    sinatra-app
     $
 
 This demo project was used in these blog posts:
