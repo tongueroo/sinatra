@@ -1,6 +1,6 @@
 # Test Project for Demo
 
-This project contains a small sinatra app that prints out some text.  It listens on the default 4567 port.
+This project contains a small sinatra app that prints out some text.  It listens on the default 8080 port.
 
 ## Testing Locally with Mac OSX
 
@@ -14,8 +14,8 @@ This project contains a small sinatra app that prints out some text.  It listens
 The app is also dockerized so you can test this via docker.
 
     $ docker build -t tongueroo/sinatra . # you can skip this step if you want to just pull the image from DockerHub.
-    $ docker run --rm -d -p 4567:4567 --name hi tongueroo/sinatra
-    $ curl localhost:4567 ; echo
+    $ docker run --rm -d -p 8080:8080 --name hi tongueroo/sinatra
+    $ curl localhost:8080 ; echo
     42
     $ docker stop hi ; docker rm hi
     hi

@@ -6,7 +6,7 @@
         {
             "targetGroupArn": "FILL-IN-YOUR-TARGET-GROUP",
             "containerName": "web",
-            "containerPort": 4567
+            "containerPort": 8080
         }
     ],
     "desiredCount": 1,
