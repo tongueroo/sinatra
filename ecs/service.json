@@ -1,7 +1,7 @@
 {
     "cluster": "my-cluster",
     "serviceName": "my-service",
-    "taskDefinition": "sinatra-hi",
+    "taskDefinition": "sinatra-app",
     "loadBalancers": [
         {
             "targetGroupArn": "FILL-IN-YOUR-TARGET-GROUP",

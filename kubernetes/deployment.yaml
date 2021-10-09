@@ -1,0 +1,23 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: demo-web
+  labels:
+    app: demo
+    role: web
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: demo
+      role: web
+  template:
+    metadata:
+      labels:
+        app: demo
+        role: web
+    spec:
+      containers:
+      - image: tongueroo/sinatra
+        name: demo-web
